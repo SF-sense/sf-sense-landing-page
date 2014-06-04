@@ -1,0 +1,24 @@
+{
+  "name": "sf-sense-landing-page",
+  "version": "0.0.1",
+  "homepage": "https://github.com/SF-sense/sf-sense-landing-page",
+  "authors": [
+    "Romain Lavoix <romain.lavoix@gmail.com>"
+  ],
+  "description": "landing page for sf sense",
+  "main": "index.html",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "holderjs": "~2.3.2"
+  }
+}

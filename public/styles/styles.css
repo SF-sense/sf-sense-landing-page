@@ -1,0 +1,97 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  color: #5a5a5a;
+  background-image: url('../assets/handmadepaper.png');
+}
+
+.container {
+  margin-top: 50px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0px 0px 30px 5px rgba(77,72,77,1);
+  -moz-box-shadow: 0px 0px 30px 5px rgba(77,72,77,1);
+  box-shadow: 0px 0px 30px 5px rgba(77,72,77,1);
+}
+
+/* disabling bootstrap auto margin here*/
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.featurette-image {
+  -webkit-box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);
+  -moz-box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);
+  box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);
+}
+
+.img-circle {
+  -webkit-box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);
+  -moz-box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);
+  box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: #F8F8FF;
+  /*background-image: url('../assets/binding_dark.png');*/
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
