@@ -4,16 +4,14 @@
 
 body {
   color: #5a5a5a;
-  background-image: url('../assets/handmadepaper.png');
+  background-color: #666;
 }
 
 .container {
-  margin-top: 50px;
-  border-radius: 20px;
-  margin-bottom: 50px;
-  -webkit-box-shadow: 0px 0px 30px 5px rgba(77,72,77,1);
-  -moz-box-shadow: 0px 0px 30px 5px rgba(77,72,77,1);
-  box-shadow: 0px 0px 30px 5px rgba(77,72,77,1);
+  -webkit-box-shadow: 10px 0px 80px 15px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 0px 80px 15px rgba(0,0,0,0.75);
+  box-shadow: 10px 0px 80px 15px rgba(0,0,0,0.75);
+  padding:0;
 }
 
 /* disabling bootstrap auto margin here*/
@@ -23,54 +21,145 @@ body {
 }
 
 .featurette-image {
-  -webkit-box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);
+/*  -webkit-box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);
   -moz-box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);
-  box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);
+  box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);*/
 }
 
 .img-circle {
-  -webkit-box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);
+/*  -webkit-box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);
   -moz-box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);
-  box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);
+  box-shadow: 0px 0px 30px 1px rgba(77,72,77,1);*/
 }
 
-/* MARKETING CONTENT
--------------------------------------------------- */
 
-/* Pad the edges of the mobile views a bit */
-.marketing {
-  padding-right: 15px;
-  padding-left: 15px;
-  background-color: #F8F8FF;
+.top-bar {
+  background: #4a2b7f; /* Old browsers */
+  background: -moz-linear-gradient(top,  #4a2b7f 0%, #665680 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4a2b7f), color-stop(100%,#665680)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #4a2b7f 0%,#665680 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #4a2b7f 0%,#665680 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #4a2b7f 0%,#665680 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #4a2b7f 0%,#665680 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a2b7f', endColorstr='#665680',GradientType=0 ); /* IE6-9 */
 }
 
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-  margin-bottom: 20px;
+.top-bar h1 {
+  color:#fff;
+  font-size: 26px;
+  margin:0 0 0 10px;
+  padding:10px;
+  display: inline-block;
+  font-family: 'Bree Serif', serif;
+  letter-spacing: 1px;
+}
+.top-bar h1 > span {
+  letter-spacing: 3px;
+  padding-left:5px;
+}
+
+.sf-header {
+  height:400px;
+  background-color:#262626;
+}
+
+.sf-header div {
+  float:left;
+  width:539px;
+  border-left: 1px solid #665680;
+}
+
+.sf-header h2{
+  color:#fff;
+  text-align: center;
+  margin-top:50px;
+  font-size: 34px;
+}
+
+.sf-header img {
+  float:left;
+  width:600px;
+}
+
+.sf-header p {
+  color:#fff;
+  font-size: 23px;
+  width:400px;
+  margin:60px auto;
+}
+
+
+.sf-notification {
+  height:657px;
+  background:url(../assets/img/alert.jpg) no-repeat;
+  border-top: 1px solid #665680;
+}
+
+.sf-notification > div {
+  float:right;
+  width:400px;
+  background-color:#262626;
+  padding:40px;
+  margin:115px 100px 0 0;
+  opacity: 0.8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */  
+}
+
+.sf-notification > div > h2 {
+  color:#fff;
+  margin:5px 0 25px 0;
+  font-size: 26px;
   text-align: center;
 }
-.marketing h2 {
-  font-weight: normal;
-}
-.marketing .col-lg-4 p {
-  margin-right: 10px;
-  margin-left: 10px;
-}
 
-/* Featurettes
-------------------------- */
-
-.featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+.sf-notification > div > p{
+  color:#fff;
+  font-size: 18px;
+  margin-left:20px;
 }
 
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
+.profiles {
+  background-color: #262626;
 }
 
+.profile {
+  background-color: #fff;
+  border-radius: 5px;
+  width: 260px;
+  float:left;
+  margin:20px 60px;
+  padding:10px;
+  height: 300px;
+}
+
+.profile img {
+  display: block;
+  margin:0 auto;
+  width:150px;
+  border-radius: 50%;
+}
+
+.profile  h2 {
+  text-align: center;
+}
+
+.profile  a {
+  display: block;
+  margin:0 auto;  
+  width:100px;
+}
+
+.download {
+    float:right;
+    padding: 18px 28px;
+    padding:40px;
+    margin:150px 130px 0 0;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
 
 
 /* RESPONSIVE CSS
